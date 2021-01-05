@@ -1,0 +1,31 @@
+
+package pkg202069040005_array;
+
+public class negara_kota {
+
+   
+    public static void main(String[] args) {
+        // mendekralasikan Variabel array 
+        
+//Amerika = [0] = variabel
+//inggris [1] 
+
+System.out.println("Akhmad aldi (202069040005)");
+System.out.println("=========================================================================");
+
+
+String[] namanegara = {"Amerika","Inggris", "Jepang", "Perancis", "Indonesia", "Iran", "Irak"};
+String[] ibukota    = {"Teheran", "Bekasi", "Jakarta", "Batar Gebang", "Tokyo"};
+
+//output
+System.out.println("Ibu kota " + namanegara[4] + " adalah "  + ibukota[2]);
+System.out.println("Ibu kota " + namanegara[2] + " adalah "  + ibukota[4]);
+System.out.println("Ibu kota " + namanegara[5] + " adalah "  + ibukota[0]); 
+
+
+System.out.println("=========================================================================");
+System.out.println("TERIMA KASIH");
+
+    }
+    
+}
